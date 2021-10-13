@@ -13,7 +13,8 @@
       <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://schluppeck.github.io/make-wb-20mph/2021/10/13/basic-traffic-data-from-stats19/</guid>
-      <description>  </description>
+      <description>To raise awareness about the actual number of traffic accidents in our neighbourhood I have decided to do some number crunching and plotting (since this is what I do a lot of in my day job as a scientist).
+I will try to bring out the numbers as clearly as I can (and I will let them speak for themselves). There is no claim for completeness, but if you want to inspect how I went about it the code (in R) is published on my github page: https://github.</description>
     </item>
     
     <item>

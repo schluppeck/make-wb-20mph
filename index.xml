@@ -13,7 +13,8 @@
       <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://schluppeck.github.io/make-wb-20mph/2021/10/13/basic-traffic-data-from-stats19/</guid>
-      <description>  </description>
+      <description>To raise awareness about the actual number of traffic accidents in our neighbourhood I have decided to do some number crunching and plotting (since this is what I do a lot of in my day job as a scientist).
+I will try to bring out the numbers as clearly as I can (and I will let them speak for themselves). There is no claim for completeness, but if you want to inspect how I went about it the code (in R) is published on my github page: https://github.</description>
     </item>
     
     <item>
@@ -26,15 +27,6 @@
 The arguments in favour are simple:
   safety there are many, many children on the road (pedestrians and cyclists) at all times of day and 20mph is much safer
   environment, both in terms of emissions and how people not in cars can make use of the roads</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://schluppeck.github.io/make-wb-20mph/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      
-      <guid>https://schluppeck.github.io/make-wb-20mph/about/</guid>
-      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
     </item>
     
   </channel>
