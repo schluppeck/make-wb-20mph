@@ -119,41 +119,41 @@ imageMapResize();
 </script>
 <script>
   // set the links text, e-mail bodies etc
-  var email_body="Dear%20councillors,%0D%0A%20%0D%0AI%20am%20writing%20to%20ask%20you%20if%20you%20will%20support%20a%20default%20speed%20limit%20of%2020mph%20where%20people%20walk,%20live%20and%20play.%20As%20you%20probably%20know,%20there%20is%20overwhelming%20support%20for%20the%20idea%20of%20having%2020mph%20as%20a%20default%20speed%20limit,%20especially%20in%20densely%20populated%20and%20residential%20areas%20like%20West%20Bridgford,%20so%20it%20is%20likely%20to%20be%20hugely%20popular%20with%20your%20constituents,%20maybe%20especially%20the%20many%20parents%20with%20young%20children.%0D%0A%20%0D%0AThere%20is%20a%20short%20video%20briefing%20by%20the%20organisation%20Twenty%20is%20Plenty%20for%20Us%20that%20explains%20the%20many%20benefits%20and%20how%20local%20councils%20can%20help%20effect%20this%20change:%20https%3A%2F%2Fwww.20splenty.org/parish_council_motion%0D%0A%20%0D%0AI%20would%20appreciate%20hearing%20your%20views%20on%20this%20topic%20and%20helping%20us%20push%20for%20this%20big%20improvement%20in%20quality%20of%20life%20in%20your%20ward%20and%20across%20Rushcliffe.%0D%0A%20%0D%0A%20%0D%0A%20Sincerely" + "<html>%20</html>";
+  var email_body="Dear%20councillors,%0D%0A%20%0D%0AI%20am%20writing%20to%20ask%20you%20if%20you%20will%20support%20a%20default%20speed%20limit%20of%2020mph%20where%20people%20walk,%20live%20and%20play.%20As%20you%20probably%20know,%20there%20is%20overwhelming%20support%20for%20the%20idea%20of%20having%2020mph%20as%20a%20default%20speed%20limit,%20especially%20in%20densely%20populated%20and%20residential%20areas%20like%20West%20Bridgford,%20so%20it%20is%20likely%20to%20be%20hugely%20popular%20with%20your%20constituents,%20maybe%20especially%20the%20many%20parents%20with%20young%20children.%0D%0A%20%0D%0AThere%20is%20a%20short%20video%20briefing%20by%20the%20organisation%20Twenty%20is%20Plenty%20for%20Us%20that%20explains%20the%20many%20benefits%20and%20how%20local%20councils%20can%20help%20effect%20this%20change:%20https%3A%2F%2Fwww.20splenty.org/parish_council_motion%0D%0A%20%0D%0AI%20would%20appreciate%20hearing%20your%20views%20on%20this%20topic%20and%20helping%20us%20push%20for%20this%20big%20improvement%20in%20quality%20of%20life%20in%20your%20ward%20and%20across%20Rushcliffe.%0D%0A%20%0D%0A%20%0D%0A%20Sincerely" + "<html>cc Penny Gowland / County Councillor</html>";
   
   var subject = "Will%20you%20please%20support%2020mph%20for%20West%20Bridgford";
   
   // Abbey
   var a = document.getElementById('abbey'); 
-  a.href = "mailto:cllr.bbuschman@rushcliffe.gov.uk,cllr.pgowland@rushcliffe.gov.uk" + "?cc=west_bridgford@20splentyforus.org.uk&subject=" + subject + "&body=" + email_body ;
+  a.href = "mailto:cllr.bbuschman@rushcliffe.gov.uk,cllr.pgowland@rushcliffe.gov.uk" + "?cc=west_bridgford@20splentyforus.org.uk,cllr.penny.gowland@nottscc.gov.uk&subject=" + subject + "&body=" + email_body ;
 
     // Trent Bridge
   var tb = document.getElementById('trent_bridge'); 
-  tb.href = "mailto:cllr.bbansal@rushcliffe.gov.uk,cllr.jmurray@rushcliffe.gov.uk" + "?cc=west_bridgford@20splentyforus.org.uk&subject=" + subject + "&body=" + email_body;
+  tb.href = "mailto:cllr.bbansal@rushcliffe.gov.uk,cllr.jmurray@rushcliffe.gov.uk" + "?cc=west_bridgford@20splentyforus.org.uk,cllr.penny.gowland@nottscc.gov.uk&subject=" + subject + "&body=" + email_body;
   
   // Lady Bay
   var lb = document.getElementById('lady_bay'); 
-  lb.href = "mailto:Cllr.RMallender@rushcliffe.gov.uk,Cllr.smallender@rushcliffe.gov.uk" +  "?cc=west_bridgford@20splentyforus.org.uk&subject=" + subject + "&body=" + email_body;
+  lb.href = "mailto:Cllr.RMallender@rushcliffe.gov.uk,Cllr.smallender@rushcliffe.gov.uk" +  "?cc=west_bridgford@20splentyforus.org.uk,cllr.penny.gowland@nottscc.gov.uk&subject=" + subject + "&body=" + email_body;
   
   // Gamston South
   var lb = document.getElementById('gamston_south'); 
-  lb.href = "mailto:" +  "cllr.dvirdi@rushcliffe.gov.uk" + "?cc=west_bridgford@20splentyforus.org.uk&subject=" + subject + "&body=" + email_body;
+  lb.href = "mailto:" +  "cllr.dvirdi@rushcliffe.gov.uk" + "?cc=west_bridgford@20splentyforus.org.uk,cllr.penny.gowland@nottscc.gov.uk&subject=" + subject + "&body=" + email_body;
 
     // Edwalton
   var e = document.getElementById('edwalton'); 
-  e.href = "mailto:" +  "cllr.kbeardsall@rushcliffe.gov.uk,cllr.SRobinson@rushcliffe.gov.uk" + "?cc=west_bridgford@20splentyforus.org.uk&subject=" + subject + "&body=" + email_body;
+  e.href = "mailto:" +  "cllr.kbeardsall@rushcliffe.gov.uk,cllr.SRobinson@rushcliffe.gov.uk" + "?cc=west_bridgford@20splentyforus.org.uk,cllr.penny.gowland@nottscc.gov.uk&subject=" + subject + "&body=" + email_body;
   
   // musters
   var m = document.getElementById('musters'); 
-  m.href = "mailto:" +  "cllr.RJones@rushcliffe.gov.uk,vicky.price@rushcliffelibdems.org.uk" + "?cc=west_bridgford@20splentyforus.org.uk&subject=" + subject + "&body=" + email_body;
+  m.href = "mailto:" +  "cllr.RJones@rushcliffe.gov.uk,vicky.price@rushcliffelibdems.org.uk" + "?cc=west_bridgford@20splentyforus.org.uk,cllr.penny.gowland@nottscc.gov.uk&subject=" + subject + "&body=" + email_body;
   
   // lutterell
   var l = document.getElementById('lutterell'); 
-  l.href = "mailto:" +  "cllr.nbegum@rushcliffe.gov.uk,cllr.bgray@rushcliffe.gov.uk" + "?cc=west_bridgford@20splentyforus.org.uk&subject=" + subject + "&body=" + email_body;
+  l.href = "mailto:" +  "cllr.nbegum@rushcliffe.gov.uk,cllr.bgray@rushcliffe.gov.uk" + "?cc=west_bridgford@20splentyforus.org.uk,cllr.penny.gowland@nottscc.gov.uk&subject=" + subject + "&body=" + email_body;
   
     // compton_acres
   var ca = document.getElementById('compton_acres'); 
-  ca.href = "mailto:" +  "Cllr.APhillips@rushcliffe.gov.uk,cllr.DWheeler@rushcliffe.gov.uk" + "?cc=west_bridgford@20splentyforus.org.uk&subject=" + subject + "&body=" + email_body;
+  ca.href = "mailto:" +  "Cllr.APhillips@rushcliffe.gov.uk,cllr.DWheeler@rushcliffe.gov.uk" + "?cc=west_bridgford@20splentyforus.org.uk,cllr.penny.gowland@nottscc.gov.uk&subject=" + subject + "&body=" + email_body;
   
 </script><blockquote>
 </blockquote>
